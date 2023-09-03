@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    margin: auto; 
+    font-size: 20px;
+    font-family: Arial;
+    width: 900px;
+    height: 600px;
+    background-color: pink;
+
+
+}
+table{
+    width: 600px;    
+    margin: auto;
+    margin-right: 190px;
+    margin-top: 40px;
+    background-color: pink;
+
+}
+
+
+.col-1{
+    width: 30%;
+}
+h5{
+    text-align: end;
+   padding-right: 40px;
+}
+.col-2{
+   width: 70%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1 {
+    display: flex;
+    flex: 10%;
+    border: 2px solid rgb(129, 127, 127);
+    border-right: none;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: rgb(222, 218, 218);
+}
+.box-2{
+    display: flex;
+    flex: 90%;
+}
+input[type=text]{
+    height: 35px;
+    border: 2px solid rgb(129, 127, 127);
+}
+input{
+    width: 100%; 
+}
+input[type="text"]::placeholder{
+   padding-left: 15px;
+   font-size: 18px;
+}
+/* passwor */
+input[type=password]{
+    height: 35px;
+    border: 2px solid rgb(129, 127, 127);
+}
+input{
+    width: 100%; 
+}
+input[type="password"]::placeholder{
+   padding-left: 15px;
+   font-size: 18px;
+}
+/* tel */
+input[type=tel]{
+    height: 35px;
+    border: 2px solid rgb(129, 127, 127);
+}
+input{
+    width: 100%; 
+}
+input[type="tel"]::placeholder{
+   padding-left: 15px;
+   font-size: 18px;
+}
+/* select */
+#deparment {
+    width: 20px;
+    border: 2px solid rgb(129, 127, 127);
+    border-left: none;
+    background-color: rgb(218, 213, 213);
+}
+.row{
+    height: 50px;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+button {
+    padding: 10px 30px;
+    background-color: #030303;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: #4e4a4a;
+}
+    

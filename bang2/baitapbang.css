@@ -1,0 +1,105 @@
+/* header */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "roboto", sans-serif;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 50px;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+#nentang{
+    float: left;
+    line-height: 50px;
+    padding: 0 30px;
+    padding-left: 0;
+    list-style: none;
+    color: aliceblue;
+    font-size: 22px;
+    text-decoration:none
+}
+nav .menu ul li {
+    float: left;
+    line-height: 50px;
+    padding: 0 10px;
+    list-style: none;
+}
+nav .menu ul li:hover{
+    background-color: red;
+    
+}
+nav .menu1 ul li:hover{
+    background-color: red;
+}
+
+nav .search {
+    line-height: 50px;
+    margin-left: 50px;
+    margin-right: 15px;
+}
+nav .search input {
+    height: 28px;
+    border-radius: 4px;
+}
+nav .search button {
+    height: 28px;
+    width: 62px;
+    color: green;
+    background: black;
+    border: 2px solid green;
+    border-radius: 4px;
+}
+
+nav .menu1 ul li {
+    float: left;
+    line-height: 50px;
+    padding: 0 10px;
+    list-style: none;
+}
+
+nav div ul li a{
+    color: aliceblue;
+    text-decoration:none
+    
+}
+
+
+
+
+ 
+
+/* table */
+
+h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:25px;
+    
+}
+table{
+    border-collapse: collapse;  
+    margin: auto;
+    width: 1013px;
+    height: 500px;
+}
+td{
+    text-align: center;
+}
+button{
+      background-color:red ;
+      height: 30px;
+      width: 60px;
+      border: 0;
+      border-radius: 4px;
+}
+button:hover{
+    background-color: brown;
+}

@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333333;
+    height: 50px;
+    display: flex;
+}
+ul{
+    display: flex;
+    height: 100%;
+}
+li{
+    list-style-type: none;
+    color:aliceblue;
+    margin-right: 20px;
+}
+#logo{
+    font-size: xx-large;
+    font-weight: 700;
+    color: aliceblue;
+    margin-left:150px;
+    padding-top: 7px;
+}
+li a{
+    color: #BBBBBB;
+}
+#home_page{
+    color:aliceblue;
+}
+#header_right{
+    display: flex;
+    padding: 10px;
+    margin-left: 220px;
+}
+#header_right input, #header_right button{
+    margin-left: 10px;
+}

@@ -1,0 +1,173 @@
+main{
+    width: 100%;
+}
+.forms{
+    width: 380px;
+    margin: auto;
+}
+.forms .main-1 .row{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    border: 1px solid ;
+    border-radius: 4px;  
+    background-color:rgb(249, 245, 245);
+}
+h5{
+    color: chartreuse;
+}
+.main-1 .row{
+    margin: 12px 0;
+}
+.icon-input{
+    display: flex;
+    flex: 10%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inputs{
+    display: flex;
+    flex: 90%;
+}
+.inputs input{
+    width: 100%;
+    margin: 6px 0;
+    border: none;
+    border-left: 1px solid ;
+}
+.inputs input[type="text"]::placeholder{
+    align-items: center;
+    padding: 20px;
+    background-color:rgb(249, 245, 245);
+}
+.row-2{
+    display: flex;
+}
+.row-2 h5{
+    margin-bottom: 10px;
+}
+.row-2 .dob{
+    margin-right: 130px;
+}
+.row-3{
+    display: flex;
+}
+.row-3 .dob2 button{
+    height: 40px;
+    width: 50px;
+    margin-right: 4px;
+}
+.row-3 .dob2{
+    margin-right:4px;
+}
+#button-yyyy{
+    width: 60px;
+}
+.sex{
+    height: 38.5px;
+    display: flex;
+    border: 1px solid ;
+    border-radius: 3px;
+    margin-left: 20px;
+    
+}
+.row-3 .sex button{
+    height: 38px;
+    width: 87px;
+    display: inline-block;
+    margin-right: 0px;
+    border: none;
+}
+#m{
+    border-right: 1px solid;
+}
+.pay{
+    margin-bottom: 10px;
+}
+.row4{
+    display: flex;
+    width: 100%;
+    border: 1px solid ;
+    height: 40px;
+    border-radius: 3px;
+
+}
+
+.row4 button{
+    height: 40px;
+    width: 50%;
+    border: none;
+}
+#card{
+    border-right: 1px solid;
+}
+#card:hover{
+    background-color: chartreuse;
+    color: aliceblue;
+}
+#card2:hover{
+    background-color: chartreuse;
+    color: aliceblue;
+}
+.row5{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    border: 1px solid ;
+    border-radius: 4px; 
+    margin: 12px 0;
+    background-color:rgb(249, 245, 245);
+
+}
+.row6{
+    display: flex; 
+    width: 100%;
+    height: 40px;
+    background-color:rgb(249, 245, 245);
+}
+.cardcvc{
+    display: flex; 
+    border: 1px solid;
+    align-items: center;
+    border-radius: 3px;
+    width: 50%;
+    height: 40px;
+    margin-right: 8px;
+}
+.cardcvc i{
+    display: flex;
+    width: 38px;
+    align-items: center;
+    justify-content: center;
+}
+.cardcvc div input{
+    width: 145px;
+    height: 26px;
+    border: none;
+    border-left: 1px solid ;
+}
+.years{
+    display:flex;
+    /* border: 1px solid;
+    height: 40px;
+    width: 50px; */
+}
+.years select[name="month"]{
+    display: flex;
+    height: 42px;
+    width: 90px;
+    background-color:rgb(249, 245, 245);
+}
+.years select[name="year"]{
+    display: flex;
+    height: 42px;
+    width: 90px;
+    background-color:rgb(249, 245, 245);
+}
+.cardcvc div input[type="text"]::placeholder{
+    align-items: center;
+    padding: 20px;
+    background-color:rgb(249, 245, 245);
+}

@@ -1,0 +1,24 @@
+.row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+div{
+    background-color: antiquewhite;
+}
+img{
+    width: 20%;
+    height: 20%;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+div{
+    background-color: antiquewhite;
+}
+img{
+    width: 20%;
+    height: 20%;
+}

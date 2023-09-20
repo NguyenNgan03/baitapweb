@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            height: auto;
+            width: 500px;
+            background-color: aquamarine;
+            padding: 10px;
+        }
+        .hobby,
+        .radio-button h2{
+            display: flex;
+            justify-content: center;
+        }
+        .nut{
+            display: flex;
+            justify-content: center;
+        }
+        .radio-button,
+        .check-box,
+        #show{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hobby">
+            <h2>Hobby</h2>
+        </div>
+        <div class="check-box">
+            <input type="checkbox" name="checkbox" id="swim" value="Swim">Swim</input>
+            <input type="checkbox" name="checkbox" id="football" value="Football">Football</input>
+            <input type="checkbox" name="checkbox" id="dance" value="Dance">Dance</input>
+            <input type="checkbox" name="checkbox" id="sing" value="Singer">Singer</input>
+        </div>
+        <div class="radio-button">
+            <h2>Bạn là ai?</h2>
+            <input type="radio" name="radio" id="radio1" value="Sinh vien">Sinh vien</input>
+            <input type="radio" name="radio" id="radio2" value="Học sinh">Học sinh</input>
+            <input type="radio" name="radio" id="radio3" value="Đi làm">Đi làm</input>
+        </div>
+        <div class="nut">
+            <input type="button" name="" id="button" onclick="myFunction()" value="Xác nhận">
+        </div>
+        <div id="show">In ra màn hình ở đây</div>
+    </div>
+    <script src="1.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Click the button after you already enter number</p>
+    <input type="number" name="nhap" id="nb">
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+            // var number = document.getElementById("nb").value;
+            var number = document.getElementsByTagName("nhap");
+            // var number = document.querySelector("input[name='nhap']").value;
+            var getting;
+            if (number==0){
+                getting = "ban duoc 0 diem";
+            }else if(number<0){
+                getting = "Day la so am"
+            }else{
+                getting ="day la so duong"
+            }
+            document.getElementById("demo").innerHTML=getting;
+            
+        }
+        
+    </script>
+</body>
+</html>

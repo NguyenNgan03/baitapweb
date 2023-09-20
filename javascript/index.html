@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="function_DtHCN()">Dien tich hinh chu nhat</button>
+    <button onclick="function_DtHinhvuong()">Dien tich hinh vuong</button>
+    <button onclick="function_Hello()">Hello</button>
+    <p id="hcn">Dien tich hinh chu nhat la </p>
+    <p id="hv">Dien tich hinh vuong la</p>
+    <p id="hello">Welcome PNV</p>
+    <script>
+        function function_DtHCN(a,b){
+            var a = prompt("Enter a: ");
+            var b = prompt("Enter b: ");
+            var dthcn = a*b;
+            document.getElementById("hcn").innerHTML=("Dien tich HCN canh " + a +" và " + b +" = " +dthcn);
+        }
+        function function_DtHinhvuong(a,b){
+            var a = prompt("Enter a: ");
+            var dthv = a*a;
+            document.getElementById("hv").innerHTML=("Dien tich hinh vuong canh " + a + " = " +dthv)
+        }
+        function function_Hello(){
+            document.getElementById("hello").innerHTML=("Welcome PNV. My name is Passerelles Numeriques Viet Nam")
+        }
+    </script>
+</body>
+</html>

@@ -22,13 +22,13 @@ function myFunction(){
             firstPrice += 500000;
         }
         else if ( allProduct[i] == "football" ){
-            firstPrice += 3000000;
+            firstPrice += 2000000;
         }
         else if ( allProduct[i] == "dancing" ){
-            firstPrice += 3000000;
+            firstPrice += 1000000;
         }
         else if ( allProduct[i] == "singger" ){
-            firstPrice += 3000000;
+            firstPrice += 4000000;
         }
    }
    // cộng giảm giá khuyến mãi:
@@ -48,18 +48,18 @@ function myFunction(){
    if (allProduct.length > 0 && typeOfCus !== "") {
         for (let i = 0; i < customerType.length; i++) {
             if (typeOfCus == "sinhvien") {
-                document.getElementById("thanhtien").innerHTML = "Bạn đã chọn " + countProduct + "hobby là " + allProduct.join(", ") + " số tiền = " + firstPrice;
-                document.getElementById("giamgia").innerHTML = "Bạn là" + typeOfCus + " nên được giảm giá 10%";
+                document.getElementById("thanhtien").innerHTML = "Bạn đã chọn " + countProduct + " hobby là " + allProduct.join(", ") + " số tiền = " + firstPrice;
+                document.getElementById("giamgia").innerHTML = "Bạn là đối tượng " + typeOfCus + " nên được giảm giá 10%";
                 document.getElementById("tiencantra").innerHTML = "Tổng số tiền bạn cần trả là: " + totalprice;
             }
             else if (typeOfCus == "hocsinh") {
                 document.getElementById("thanhtien").innerHTML = "Bạn đã chọn " + countProduct + "hobby là " + allProduct.join(", ") + " số tiền = " + firstPrice;
-                document.getElementById("giamgia").innerHTML = "Bạn là" + typeOfCus + " nên được giảm giá 30%";
+                document.getElementById("giamgia").innerHTML = "Bạn là đối tượng " + typeOfCus + " nên được giảm giá 30%";
                 document.getElementById("tiencantra").innerHTML = "Tổng số tiền bạn cần trả là: " + totalprice;
             }
             else if (typeOfCus == "dilam") {
-                document.getElementById("thanhtien").innerHTML = "Bạn đã chọn " + countProduct + "hobby là " + allProduct.join(", ") + " số tiền = " + firstPrice;
-                document.getElementById("giamgia").innerHTML = "Bạn là" + typeOfCus + " nên được giảm giá 30%";
+                document.getElementById("thanhtien").innerHTML = "Bạn đã chọn " + countProduct + " hobby là " + allProduct.join(", ") + " số tiền = " + firstPrice;
+                document.getElementById("giamgia").innerHTML = "Bạn là đối tượng " + typeOfCus + " nên được giảm giá 30%";
                 document.getElementById("tiencantra").innerHTML = "Tổng số tiền bạn cần trả là: " + totalprice;
             }
         }

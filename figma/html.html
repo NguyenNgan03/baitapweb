@@ -1,31 +1,78 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Web Design</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="mystyles.css">
-        </head>
-        <link rel="stylesheet" href="https://font.googleapis.com/css?family=El Messiri">
-        <body>
-        <div id="menubar" class="menu">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=El Messiri">
+</head>
+<body>
+    <div class="menu" id="menubar">
         <div id="menu-logo">
-        <div class="image"></div>
+            <div class="image"></div>
         </div>
         <div id="menu-contact" class="menu-item">
-        <a>Contact Us</a>
+            <a href="#contact-section">Contact Us</a>
         </div>
         <div id="menu-about" class="menu-item">
-        <a>About</a>
+            <a href="#about-section">About</a>
         </div>
-        <div id="menu-home" class="menu-item"> <a>Home</a>
+        <div id="menu-home" class="menu-item">
+            <a href="#home-section">Home</a>
         </div>
+    </div>
+    <div class="section" id="home-section">
+        
+    </div>
+    <div class="section" id="about-section">
+        <div class="heading-text" id="about-title">About Us</div>
+        <div id="about-sub-sections">
+            <div id="about-1">
+                <div class="about-sub-image image"></div>
+                <div class="about-sub-text normal-text">
+                    The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.
+                </div>
+            </div>
+            <div id="about-2">
+                <div class="about-sub-image image"></div>
+                <div class="about-sub-text normal-text">
+                    Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.
+                </div>
+            </div>
         </div>
-        <div class="section" id="home-section">
-        <div id="home-title">
-        <div class="normal-text">Towards</div>
-        <div class="heading-text">Excellence</div>
-        <div class="normal-text">Providing you with the best of our services</div>
+    </div>
+
+    <div class="section" id="contact-section">
+        <div id="contact-title" class="heading-text">Contact Us</div> 
+        <div id="contact-sub-sections" class="normal-text">
+            <div id="contact-phone">
+                <div class="image"></div>
+                <p>0000000000</p>
+            </div>
+            <div id=contact-email>
+                <div class="image"></div> 
+                <p>ngan@gmail.com</p>
+            </div>
+            <div id="contact-location">
+                <div class="image"></div>
+                <p>101B LeHuuTrac. <br/> VietNam Son Tra Da NaNG</p>
+            </div>
         </div>
+        <div id="footer">
+            <div id="footer-logo">
+                <div class="image"></div>
+                <div id="footer-copyright" class="normal-text">Good bye</div>
+            </div>
+            <div id="footer-links" class="normal-text"> 
+                <p>Quick Links</p>
+                <a href="#home-section">Home</a>
+                <a href="#about-section">About</a>
+                <a href="#contact-section">Contact Us</a>
+            </div>
         </div>
-        <div class="section" id="about-section"></div>
-        <div class="section" id="contact-section"></div>
-        </body>
+    </div>
+
+</body>
+</html>
